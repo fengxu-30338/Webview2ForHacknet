@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HacknetEditorHint>
+    <Node name="Computer.WebServerDaemon" enable="true" multi="false" desc="web服务守护进程（来源：Webview2ForHacknet mod功能）">
+        <Attribute name="Name" required="true" default="" desc="该守护进程显示在计算机首页的显示名称" hint="enum" />
+        <Attribute name="Url" required="true" default="" desc="html页面路径" hint="path" linkBy="path" diag="E"  >**/*.html</Attribute>
+    </Node>
+
+    <Node name="mission.email.html" enable="true" multi="false" desc="定义邮件的内容为网页">
+        <Attribute name="Url" required="true" default="" desc="Html文件路径" hint="path" linkBy="path" diag="E" >
+            **/*.html
+        </Attribute>
+    </Node>
+</HacknetEditorHint>

@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Webview2ForHacknet.csproj" Id="64ef0f52-301c-4280-99d3-6562c323e60a">
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+</Solution>
