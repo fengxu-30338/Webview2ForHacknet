@@ -5,7 +5,7 @@
         <Attribute name="Url" required="true" default="" desc="html页面路径" hint="path" linkBy="path" diag="E"  >**/*.html</Attribute>
     </Node>
 
-    <Node name="mission.email.html" enable="true" multi="false" desc="定义邮件的内容为网页">
+    <Node name="mission.email.html" enable="true" multi="false" desc="定义邮件的内容为网页（来源：Webview2ForHacknet mod功能）">
         <Attribute name="Url" required="true" default="" desc="Html文件路径" hint="path" linkBy="path" diag="E" >
             **/*.html
         </Attribute>

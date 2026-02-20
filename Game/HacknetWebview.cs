@@ -34,7 +34,6 @@ namespace Webview2ForHacknet.Game
         public HacknetWebview()
         {
             this.PostToMainThread(this.WaitInit, () => _disposed);
-            this.PostToMainThread(this.HandleMouseEvent, () => _disposed);
         }
 
         private void WaitInit()
@@ -282,6 +281,8 @@ namespace Webview2ForHacknet.Game
             {
                 sb.Draw(_lastTexture2D, new Vector2(rect.X, rect.Y), Color.White);
             }
+
+            HandleMouseEvent();
         }
 
         public void ClearDrawCache()

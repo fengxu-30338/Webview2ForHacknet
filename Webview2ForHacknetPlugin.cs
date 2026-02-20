@@ -18,7 +18,7 @@ namespace Webview2ForHacknet
     {
         public const string ModGUID = "com.fengxu.webview2forhacknet";
         public const string ModName = "Webview2ForHacknet";
-        public const string ModVer = "1.0.0";
+        public const string ModVer = "1.0.1";
         public static Webview2ForHacknetPlugin Instance { get; private set; }
         public override bool Load()
         {
